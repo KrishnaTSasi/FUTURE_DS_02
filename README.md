@@ -24,8 +24,7 @@ The goal is to simulate how marketing teams use **data analytics + dashboards** 
 ## 🧰 **Tools Used**
 
 * **Python (Pandas, Plotly)** → Data cleaning, KPI calculations, visualizations.
-* **Google Looker Studio / Power BI** → Interactive dashboards for storytelling.
-* **Excel / Google Sheets** → Quick data checks & exports.
+
 
 ## 🚀 **Steps Performed**
 
@@ -48,11 +47,6 @@ The goal is to simulate how marketing teams use **data analytics + dashboards** 
 4. **Visualization**
 
    * Interactive **Plotly charts** (CTR by Age/Gender, ROI by Age, Spend vs Revenue, ROI Trend).
-
-5. **Export Data for Dashboarding**
-
-   * Save cleaned dataset (CSV/Excel) → Upload to **Looker Studio/Power BI**.
-
 
 # 📝 Code Explanation
 
@@ -187,7 +181,7 @@ df.to_excel("outputs/facebook_ads_cleaned.xlsx", index=False)
 print("✅ Data exported for Looker Studio / Power BI")
 ```
 
-* Saves cleaned dataset (with KPIs added) into **CSV** and **Excel**.
-* These files imported into **Google Looker Studio** or **Power BI** to build dashboards.
+* Saves cleaned dataset (with KPIs added) into **CSV**.
+
 
 
